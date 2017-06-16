@@ -15,4 +15,9 @@
 	<bean id="welcomeService"
 		class="com.alanlyu.service.demo.WelcomeService">
 	</bean>
+	<bean id="viewResolve"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+	<property name="prefix" value="/WEB-INF/views/"></property>
+	<property name="suffix" value=".jsp"></property>
+	</bean>
 </beans>

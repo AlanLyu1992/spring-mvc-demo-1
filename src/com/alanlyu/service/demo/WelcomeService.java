@@ -9,7 +9,7 @@ public class WelcomeService implements GenericWelcomeService {
 		
 		myWelcomeMessage.add("Hello!");
 		myWelcomeMessage.add(name);
-		myWelcomeMessage.add(", welcome to the Spring course");
+		myWelcomeMessage.add(", welcome to the NBA finals");
 		
 		return myWelcomeMessage;
 	}
